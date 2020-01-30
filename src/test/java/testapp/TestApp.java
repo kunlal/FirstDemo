@@ -16,7 +16,8 @@ public class TestApp {
 		
 		@Test
 		public void test() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "D:\\SoftwareDetails\\Selenium\\Selenium Browsers Jars\\Chrome\\chromedriver.exe");
+		
+		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://getbootstrap.com/docs/4.0/components/dropdowns/");
@@ -31,7 +32,8 @@ public class TestApp {
 		
 //		driver.close();
 	
-	} }
+	} 
+		}
 		
 	
 
