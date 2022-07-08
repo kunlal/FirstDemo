@@ -19,7 +19,7 @@ public class TestApp {
 		
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver_lal= driver.manage().window().maximize();
+		driver_lal_kundan= driver.manage().window().maximize();
 		driver.get("https://getbootstrap.com/docs/4.0/components/dropdowns/");
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		driver.findElement(By.id("dropdownMenuButton")).click();
